@@ -221,9 +221,31 @@ background-size: cover;
 background-position: center;
 }
 
+.imageBox{
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    
+}
+.productBox h3{
+    font-size: 20px;
 
+}
 
+.productBox h5{
+    color: orange;
+}
 
+.productBox h4{
+    font-size: 16px;
+}
+
+.productBox button{
+  padding: 10px 15px;
+  border-radius: 20px;
+  background-color: orange;
+  border: none;
+}
 
 
 
@@ -289,6 +311,8 @@ background-position: center;
 
 
     }
+
+
 
     /* mediaQ phone*/
 
