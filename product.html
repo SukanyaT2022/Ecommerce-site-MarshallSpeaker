@@ -21,10 +21,20 @@
     <!--nav is class for control nav bar-->
     <div class="container">
       <!--when all on the right side use container-fluid-if remove fulid we remove some space in marshall
-      -nov all nav <a> tag to center-->
-      <a class="navbar-brand" href="#"><img src="asset/images/logo-removeBG.png" /></a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
-        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    -nov all nav <a> tag to center-->
+      <!--add link line 31 link logo, 52Home, 61 productpage 69,70,72-->
+      <a class="navbar-brand" href="index.html"
+        ><img src="asset/images/logo-removeBG.png"
+      /></a>
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-bs-toggle="collapse"
+        data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
         <i class="fa-solid fa-bars"></i>
         <!--we change bar -use bar from front awesome--class for css fa-bars-->
       </button>
@@ -34,22 +44,27 @@
           <ul class="navbar-nav mb-2 mb-lg-0">
             <!--wechange in the middle me-auto is all nav right side --so we change m auto move all nav icon to midddle-->
             <li class="nav-item">
-              <a class="nav-link" aria-current="page" href="#">Home</a>
+              <a class="nav-link" aria-current="page" href="index.html">Home</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="#">About</a>
               <!--nav-link is class control only a tag-->
             </li>
             <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
-                aria-expanded="false">
+              <a
+                class="nav-link dropdown-toggle"
+                href="product.html"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
                 Products
               </a>
               <ul class="dropdown-menu">
-                <li><a class="dropdown-item" href="#">Classic</a></li>
-                <li><a class="dropdown-item" href="#">Mini Speaker</a></li>
+                <li><a class="dropdown-item" href="#portable">Portable Speakers</a></li>
+                <li><a class="dropdown-item" href="#homespeaker">Home Speaker</a></li>
 
-                <li><a class="dropdown-item" href="#">Headphone</a></li>
+                <li><a class="dropdown-item" href="#headphone">Headphone</a></li>
               </ul>
             </li>
             <li class="nav-item">
@@ -73,19 +88,20 @@
   </nav>
 
   <!--endnavBar-->
-
   <!--start big hero-->
   <div class="bigHero-product"></div>
   <!--end big hero-->
 
-<!--section top-->
-<div class="section-top">
+  <!--start mini speaker-->
+
+<!--section top mini speaker section-->
+<div class="section-top" id="portable"><!--link portable section this lione-->
 <h4 class="text-center mt-5">New</h4>
 <h2 class="text-center mb-5">Portable Speakers</h2>
 <div class="container">
   <div class="row">
     <!--mini speaker box 1-->
-<div class="col-lg-3 text-center productBox"><!--column each box is 3 and total 12 so we have 4 boxes//also text-cnter is boostrap class-->
+<div class="col-lg-3 col-md-6 col-xs-12 text-center productBox"><!--column each box is 3 and total 12 so we get (means3 4 time =12)4 boxes//also text-cnter is boostrap class-->
 <img src="asset/images/willen-cream-01.png" class= "img-fluid imageBox" alt="miniSpeaker">
 <!--image-fluid make it responsive for bbotrap class means fit images inside box-->
 <h5>New</h5>
@@ -96,7 +112,7 @@
 </div>
 
   <!--mini box 2-->
- <div class="col-lg-3 text-center productBox "><!--column each box is 3 and total 12 so we have 4 boxes-->
+ <div class="col-lg-3 col-md-6 col-xs-12 text-center productBox "><!--column each box is 3 and total 12 so we have 4 boxes-->
     <img src="asset/images/emberton speaker.png" class= "img-fluid imageBox" alt="miniSpeaker">
     <!--image-fluid make it responsive for bbotrap class means fit images inside box-->
     <h5>New</h5>
@@ -109,7 +125,7 @@
 
 
   <!--mini box 3-->
-  <div class="col-lg-3 text-center  productBox"><!--column each box is 3 and total 12 so we have 4 boxes-->
+  <div class="col-lg-3 col-md-6 col-xs-12 text-center  productBox"><!--column each box is 3 and total 12 so we have 4 boxes-->
     <img src="asset/images/new-Stockwell.webp" class= "img-fluid imageBox" alt="miniSpeaker">
     <!--image-fluid make it responsive for bbotrap class means fit images inside box-->
     <h5>New</h5>
@@ -119,7 +135,7 @@
     
     </div>
   <!--mini speakerbox 4-->
-  <div class="col-lg-3 text-center productBox "><!--column each box is 3 and total 12 so we have 4 boxes-->
+  <div class="col-lg-3 col-md-6 col-xs-12 text-center productBox "><!--column each box is 3 and total 12 so we have 4 boxes-->
     <img src="asset/images/killburn.png" class= "img-fluid imageBox" alt="miniSpeaker">
     <!--image-fluid make it responsive for bbotrap class means fit images inside box-->
     <h5>New</h5>
@@ -132,19 +148,176 @@
   </div>
 </div>
 
-
-
-
-
-
-
 </div>
+<!--end top section mini speaker-->
+
+
+<div class="line"></div>
+
+<!--start Home speaker-->
+<div class="container">
+  <div class="largeBox">
+    <div class="leftPic">
+   
+ <img src="asset/images/stanmore_10.jpg" class="img-fluid">
+<!--class=img fliud boostrap class help image responsive-->
+    </div>
+<div class="rightText"> 
+  <h2>Home Speaker</h2>
+  <h3>Mega Power</h3>
+  <h4>$579.99</h4>
+  <button class="buyButton">Buy</button>
+</div>
+  </div>
+</div>
+<!--end middle title home speaker-->
+
+<div class="line"></div>
+<!--start home speaker-->
+ 
+<!--section top mini speaker section-->
+<div class="section-top" id="homespeaker"> <!--add home speaker link this line id home speaker-->
+ 
+  <h2 class="text-center mb-5">Home Speakers</h2>
+  <div class="container">
+    <div class="row">
+      <!--mini speaker box 1-->
+  <div class="col-lg-3  col-md-6 col-xs-12 text-center productBox"><!--column each box is 3 and total 12 so we have 4 boxes//also text-cnter is boostrap class-->
+  <img src="asset/images/Home-speaker-marshall-acton-iii-black-01.webp" class= "img-fluid imageBox" alt="miniSpeaker">
+  <!--image-fluid make it responsive for bbotrap class means fit images inside box-->
+ 
+  <h3>ACTION</h3>
+  <h4>$299.99</h4>
+  <button>Buy</button>
+  
+  </div>
+  
+    <!--mini box 2-->
+   <div class="col-lg-3 col-md-6 col-xs-12 text-center productBox "><!--column each box is 3 and total 12 so we have 4 boxes-->
+      <img src="asset/images/Homespeaker-marshall-woburn-iii-black-01.png" class= "img-fluid imageBox" alt="miniSpeaker">
+      <!--image-fluid make it responsive for bbotrap class means fit images inside box-->
+     
+      <h3>WOBURN</h3>
+      <h4>$579.99</h4>
+      <button>Buy</button>
+      
+      </div>
+   
+  
+  
+    <!--mini box 3-->
+    <div class="col-lg-3 col-md-6 col-xs-12 text-center  productBox"><!--column each box is 3 and total 12 so we have 4 boxes-->
+      <img src="asset/images/Homespeaker-marshall-stanmore-iii-black-01.png" class= "img-fluid imageBox" alt="miniSpeaker">
+      <!--image-fluid make it responsive for bbotrap class means fit images inside box-->
+   
+      <h3>STANDMORE</h3>
+      <h4>$379.99</h4>
+      <button>Buy</button>
+      
+      </div>
+    <!--mini speakerbox 4-->
+    <div class="col-lg-3 col-md-6 col-xs-12 text-center productBox "><!--column each box is 3 and total 12 so we have 4 boxes-->
+      <img src="asset/images/Homespeaker-woburn-bluetooth.png" class= "img-fluid imageBox" alt="miniSpeaker">
+      <!--image-fluid make it responsive for bbotrap class means fit images inside box-->
+   
+      <h3>WOBURN BLUETOOTH</h3>
+      <h4>$579.99</h4>
+      <button>Buy</button>
+      
+      </div>
+  
+    </div>
+  </div>
+  
+  </div>
+  <!--end top section homespeaker-->
 
 
 
 
+<!--strat head phone here-->
+  <div class="line"></div>
+  <!--start Headphone-->
+<div class="container ">
+  <div class="largeBox">
+    <div class="leftPic">
+   
+ <img src="asset/images/headphone-model.jpeg" class="img-fluid">
+<!--class=img fliud boostrap class help image responsive-->
+    </div>
+<div class="rightText"> 
+  <h2>Headphones</h2>
+  <h3> Power of Sound</h3>
+  <h4>$229.99</h4>
+  <button class="buyButton">Buy</button>
+</div>
+  </div>
+</div>
+<!--end middle title headphone-->
+
+<div class="line"></div>
+
+ 
+<!--section top mini speaker section-->
+<div class="section-top mb-5" id="headphone"> <!--add link drop down headphone here-->
+ 
+  <h2 class="text-center mb-5">Headphones</h2>
+  <div class="container">
+    <div class="row">
+      <!--mini speaker box 1-->
+  <div class="col-lg-3  col-md-6 col-xs-12 text-center productBox"><!--column each box is 3 and total 12 so we have 4 boxes//also text-cnter is boostrap class-->
+  <img src="asset/images/heandphone-mode-eq-129.png" class= "img-fluid imageBox" alt="miniSpeaker">
+  <!--image-fluid make it responsive for bbotrap class means fit images inside box-->
+ 
+  <h3>MODE E.Q.</h3>
+  <h4>$129.99</h4>
+  <button>Buy</button>
+  
+  </div>
+  
+    <!--mini box 2-->
+   <div class="col-lg-3 col-md-6 col-xs-12 text-center productBox "><!--column each box is 3 and total 12 so we have 4 boxes-->
+      <img src="asset/images/headphone-motif199.webp" class= "img-fluid imageBox" alt="miniSpeaker">
+      <!--image-fluid make it responsive for bbotrap class means fit images inside box-->
+     
+      <h3>MOTIF</h3>
+      <h4>$149.99</h4>
+      <button>Buy</button>
+      
+      </div>
+   
+  
+  
+    <!--mini box 3-->
+    <div class="col-lg-3 col-md-6 col-xs-12 text-center  productBox"><!--column each box is 3 and total 12 so we have 4 boxes-->
+      <img src="asset/images/headphone-monitor-II-ANC229.png" class= "img-fluid imageBox" alt="miniSpeaker">
+      <!--image-fluid make it responsive for bbotrap class means fit images inside box-->
+   
+      <h3>MONITOR A.N.C.</h3>
+      <h4>$319.99</h4>
+      <button>Buy</button>
+      
+      </div>
+    <!--mini speakerbox 4-->
+    <div class="col-lg-3 col-md-6 col-xs-12 text-center productBox "><!--column each box is 3 and total 12 so we have 4 boxes-->
+      <img src="asset/images/headphone-major-iv-black-149.webp" class= "img-fluid imageBox" alt="miniSpeaker">
+      <!--image-fluid make it responsive for bbotrap class means fit images inside box-->
+   
+      <h3>MAJOR IV</h3>
+      <h4>$149.99</h4>
+      <button>Buy</button>
+      
+      </div>
+  
+    </div>
+  </div>
+  
+  </div>
+  <!--end headphone-->
 
 
+
+  
 
 
 

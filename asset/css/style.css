@@ -4,7 +4,7 @@
     font-family: ;
 }
 html, body{
-
+overflow-x: hidden;
    
 }
 .navbar {
@@ -155,7 +155,8 @@ height: 500px;
     top: 20px;
     right: 20px;
     z-index: 1;
-    color:#da1318 ;
+    color:black ;
+    text-shadow: 1px 1px black;
     padding: 5px 10px;
     background-color: transparent;
     border: none;
@@ -168,7 +169,7 @@ height: 500px;
 .fa-greater-than{
   
    font-size: 15px;
-   color:#da1318 ;
+   color:black ;
 }
 
 
@@ -247,6 +248,54 @@ background-position: center;
   border: none;
 }
 
+/*home speaker*/
+
+.buyButton{
+    padding: 10px 15px;
+    border-radius: 20px;
+    background-color: orange;
+    border: none; 
+}
+
+.largeBox{
+    width: 100%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;/*help to responsive*/
+    margin-bottom: 50px;
+}
+
+/*hr*/
+.line{
+background-color:#EAEDED;
+width: 100%;
+height: 20px;
+margin: 50px 0px;
+
+
+}
+/*product pageb-middle section bet product*/
+
+.leftPic{
+    width: 50%;
+    
+
+}
+.rightText{
+    width: 50%;
+text-align: center;
+  margin-top: 60px;
+}
+
+.rightText h2,h3,h4{
+    margin-top: 10px;
+
+}
+
+
+
+
 
 
     /*media quries for ipad*/
@@ -309,8 +358,15 @@ background-position: center;
     
     }
 
+    /*products section reduce size big hero*/
+    .bigHero-product{
+        height: 40vh;
+    }
 
     }
+
+
+
 
 
 
@@ -356,6 +412,20 @@ right: 150px;
     
     
     }
+
+/*product pageb-middle section bet product*/
+
+.leftPic{
+    width: 100%;
+    
+
+}
+.rightText{
+    width: 100%;
+text-align: center;
+  margin-top: 60px;
+}
+
 
 
 
