@@ -292,6 +292,11 @@ text-align: center;
     margin-top: 10px;
 
 }
+/*music page*/
+.switchBox{
+    flex-direction: row-reverse;
+
+}
 
 
 
@@ -362,6 +367,12 @@ text-align: center;
     .bigHero-product{
         height: 40vh;
     }
+    /*music page*/
+    .MoveTextUp{
+        margin-top:0px;
+       
+    }
+    
 
     }
 

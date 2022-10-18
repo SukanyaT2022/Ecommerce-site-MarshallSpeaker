@@ -1,0 +1,105 @@
+nav {
+  width: 100%;
+}
+
+.hero {
+  background-image: url('../images/about.jpg');
+  background-size: cover;
+  background-position: center;
+  height: 80vh;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  padding-bottom: 20px;
+}
+
+.hero-container {
+  color: white;
+  text-transform: uppercase;
+}
+
+.hero-container h2 {
+  font-size: 2.5rem;
+  margin-left: 200px;
+}
+.hero-button {
+  margin-left: 200px;
+  border-radius: 10px;
+  padding: 0 5px 0 5px;
+  background-color: black;
+  color: white;
+}
+.hero-button-div {
+  text-align: center;
+}
+
+.section-containter {
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.8);
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row-reverse;
+  flex-wrap: wrap; /*make it responsive*/
+}
+.f-img {
+  width: 40%;
+}
+.f-p {
+  width: 40%;
+}
+
+.s {
+  background-color: white;
+  color: black;
+}
+.f-title h2 {
+  font-size: 2rem;
+  padding: 40px;
+  text-align: center;
+}
+
+.f-img img {
+  width: 100%;
+}
+
+.f-p p {
+  text-align: justify;
+  padding: 15px;
+  font-size: 12px;
+}
+
+.s-section-containter {
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.8);
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap; /*make it responsive*/
+}
+
+/*ipad*/
+@media screen and (max-width: 900px) {
+  .hero {
+    height: 40vh;
+  }
+  .hero-container h2 {
+    font-size: 2.5rem;
+    margin-left: 0px;
+  }
+  .hero-button {
+    margin-left: 0px;
+  }
+}
+
+/*phone*/
+@media screen and (max-width: 600px) {
+  .f-img {
+    width: 100%;
+  }
+  .f-p {
+    width: 100%;
+  }
+}

@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Marshall Speaker - Home</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi"
+      crossorigin="anonymous"
+    />
+    <!--link for slide-->
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/flickity@2/dist/flickity.min.css"
+    />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+    <link rel="stylesheet" href="asset/css/style.css" />
+    <link rel="icon" href="asset/images/small logo.jpg" type="image/icon type">
+  </head>
+
+  <body>
+    <!--NavBar-->
+    <nav class="navbar navbar-expand-lg">
+      <!--nav is class for control nav bar-->
+      <div class="container">
+        <!--when all on the right side use container-fluid-if remove fulid we remove some space in marshall
+      -nov all nav <a> tag to center-->
+        <!--add link line 31 link logo, 52Home, 61 productpage 69,70,72-->
+        <a class="navbar-brand" href="index.html"
+          ><img src="asset/images/logo-removeBG.png"
+        /></a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <i class="fa-solid fa-bars"></i>
+          <!--we change bar -use bar from front awesome--class for css fa-bars-->
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <div class="m-auto d-flex align-items-center ChangeSizeIpadPhone">
+            <ul class="navbar-nav mb-2 mb-lg-0">
+              <!--wechange in the middle me-auto is all nav right side --so we change m auto move all nav icon to midddle-->
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="about.html">About</a>
+                <!--nav-link is class control only a tag-->
+              </li>
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle"
+                  href="product.html"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  Products
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="product.html">Portable Speaker</a></li>
+                  <li><a class="dropdown-item" href="product.html">Home Speaker</a></li>
+
+                  <li><a class="dropdown-item" href="product.html">Headphone</a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="contact.html">Contact</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="music.html">Music</a>
+              </li>
+            </ul>
+            <!--search icon-->
+            <div class="searchBox">
+              <i class="fa-solid fa-magnifying-glass"></i>
+            </div>
+            <!--shopping basket-->
+            <div class="searchBox">
+              <i class="fa-solid fa-basket-shopping"></i>
+            </div>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+    <!--endnavBar-->
+
+<!--box on the top-->
+    <div class="container mt-5 ">
+      <div class="largeBox">
+        <div class="leftPic">
+       
+     <img src="asset/images/music-cocert1.jpeg" class="img-fluid">
+    <!--class=img fliud boostrap class help image responsive-->
+        </div>
+    <div class="rightText MoveTextUp"> 
+      <h2>Concert One</h2>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores atque, blanditiis perspiciatis assumenda harum eveniet animi! Qui et neque veniam.</p>
+      <button class="buyButton">Learn More</button>
+    </div>
+      </div>
+    </div>
+
+    <div class="line"></div>
+
+
+<!--box middle page-->
+<div class="container ">
+  <div class="largeBox switchBox">
+    <div class="leftPic">
+   
+ <img src="asset/images/music-concert2.webp" class="img-fluid">
+<!--class=img fliud boostrap class help image responsive-->
+    </div>
+<div class="rightText MoveTextUp"> 
+  <h2>Concert Two</h2>
+  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores atque, blanditiis perspiciatis assumenda harum eveniet animi! Qui et neque veniam.</p>
+    <button class="buyButton">Learn More</button>
+</div>
+  </div>
+</div>
+
+<div class="line"></div>
+
+<!--box end page-->
+<div class="container ">
+  <div class="largeBox">
+    <div class="leftPic">
+   
+ <img src="asset/images/music-concert3.jpeg" class="img-fluid">
+<!--class=img fliud boostrap class help image responsive-->
+    </div>
+<div class="rightText MoveTextUp "> 
+  <h2>Concert Three</h2>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores atque, blanditiis perspiciatis assumenda harum eveniet animi! Qui et neque veniam.</p>
+      <button class="buyButton">Learn More</button>
+</div>
+  </div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!--footer-->
+    <footer>
+        <!--grid-->
+        <div class="container mt-5">
+          <div class="row">
+            <div class="col-lg-4 col-md-6 col-xs-12 text-center">
+              <!--col-lg 4 coz we need 3 box// we add text center to move my account and lig in text to center-->
+              <h2>My Account</h2>
+              <h5>LOG IN AND CREATE AN ACOOUNT</h5>
+              <button class="btn btn-light expandButtonBox" type="button">
+                LOGIN</button
+              ><br />
+              <!--btn class from bootstrap mean button-->
+              <button class="btn btn-light expandButtonBox" type="button">
+                CREATE ACCOUNT
+              </button>
+            </div>
+            <!--logo middle-->
+            <div class="col-lg-4 col-md-6 col-xs-12 logoMiddleFooter">
+              <img src="asset/images/logo-removeBG.png" />
+            </div>
+  
+            <div
+              class="col-lg-4 col-md-12 col-xs-12 d-flex align-items-center justify-content-center moveSocialIpad2right"
+            >
+              <div class="circleAroundSocial">
+                <i class="fa-brands fa-tiktok"></i>
+              </div>
+              <div class="circleAroundSocial">
+                <i class="fa-brands fa-instagram"></i>
+              </div>
+              <div class="circleAroundSocial">
+                <i class="fa-brands fa-facebook"></i>
+              </div>
+            </div>
+          </div>
+          <!--copy right-->
+          <hr />
+          <div class="row">
+            <div class="col-lg-12 text-center pt-2">
+              <p>&copy;Copyright TiparpronS.& collaborated by group four</p>
+            </div>
+          </div>
+        </div>
+      </footer>
+  
+      <script
+        src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
+        crossorigin="anonymous"
+      ></script>
+      <script
+        src="https://kit.fontawesome.com/42d8882816.js"
+        crossorigin="anonymous"
+      ></script>
+      <!--javascript for slide pack one-->
+  
+      <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
+  
+      <!--javascript for slide pack two -->
+      <script type="text/javascript">
+        $('.main-carousel').flickity({
+          // options
+          cellAlign: 'left',
+          wrapAround: true,
+  
+          autoPlay: true,
+        });
+      </script>
+    </body>
+  </html>
+  
